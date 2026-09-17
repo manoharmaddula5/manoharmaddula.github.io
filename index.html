@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,14 +38,12 @@
   </style>
 </head>
 <body class="bg-dark-900 text-slate-200 antialiased selection:bg-brand-500 selection:text-white">
-
   <div class="fixed inset-0 pointer-events-none z-0">
     <div class="absolute -top-40 -left-40 w-96 h-96 bg-brand-500/15 rounded-full blur-3xl"></div>
     <div class="absolute top-1/2 -right-40 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
   </div>
 
   <div class="relative z-10 max-w-5xl mx-auto px-6 py-12 space-y-16">
-
     <!-- Hero Header -->
     <header class="glass rounded-2xl p-8 sm:p-12 glow" data-aos="fade-down">
       <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
@@ -61,8 +58,9 @@
           <a href="mailto:manoharmaddula5@gmail.com" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-brand-500 text-white font-medium hover:bg-brand-600 transition shadow-lg shadow-brand-500/20 text-sm">
             <i data-lucide="mail" class="w-4 h-4"></i> Get in Touch
           </a>
-          <a href="https://linkedin.com/in/manohar-maddula" target="_blank" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl glass text-slate-300 font-medium hover:bg-dark-700 transition text-sm">
-            <i data-lucide="linkedin" class="w-4 h-4"></i> LinkedIn
+          <a href="https://linkedin.com/in/manohar-maddula" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl glass text-slate-300 font-medium hover:bg-dark-700 transition text-sm">
+            <i data-lucide="link" class="w-4 h-4"></i>
+            LinkedIn
           </a>
         </div>
       </div>
@@ -70,16 +68,16 @@
       <!-- Key Metrics -->
       <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-8 pt-8 border-t border-slate-800">
         <div>
-          <div class="text-2xl font-bold text-white tracking-tight">99.5%</div>
-          <div class="text-xs text-slate-400 mt-0.5">Latency Reduction (10m → 3s)</div>
-        </div>
-        <div>
           <div class="text-2xl font-bold text-white tracking-tight">100+</div>
           <div class="text-xs text-slate-400 mt-0.5">Enterprise SaaS Tenants</div>
         </div>
-        <div class="col-span-2 sm:col-span-1">
+        <div>
           <div class="text-2xl font-bold text-white tracking-tight">3.5+ Yrs</div>
-          <div class="text-xs text-slate-400 mt-0.5">Distributed Backend Systems</div>
+          <div class="text-xs text-slate-400 mt-0.5">Backend Engineering</div>
+        </div>
+        <div class="col-span-2 sm:col-span-1">
+          <div class="text-2xl font-bold text-white tracking-tight">Java + SQL</div>
+          <div class="text-xs text-slate-400 mt-0.5">Backend & Data Systems</div>
         </div>
       </div>
     </header>
@@ -90,7 +88,7 @@
         <i data-lucide="terminal" class="w-5 h-5 text-brand-500"></i> Engineering Summary
       </h2>
       <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
-        Backend Software Engineer with 3.5+ years of experience designing scalable microservices, RESTful APIs, and high-throughput data processing engines. Specialized in Java, Spring Boot, and MS SQL Server query tuning for multi-tenant enterprise platforms. Proven track record eliminating mission-critical database bottlenecks and architecting resilient batch execution pipelines for enterprise clients including Apollo Global and Walmart Canada.
+        Backend Software Engineer with 3.5+ years of experience designing scalable microservices, calculation engines, and secure RESTful APIs with OAuth 2.0 authorization. Skilled in Java, Spring Boot, and MS SQL Server, with experience in query optimization, multi-tenant architectures, enterprise data integrations, ETL pipelines, and backend services for large SaaS clients.
       </p>
     </section>
 
@@ -101,33 +99,77 @@
       </h2>
       <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
         <div>
-          <h3 class="text-xs uppercase font-bold text-slate-400 tracking-wider mb-2">Core & Backend</h3>
+          <h3 class="text-xs uppercase font-bold text-slate-400 tracking-wider mb-2">Languages & Frameworks</h3>
           <div class="flex flex-wrap gap-1.5">
             <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Java</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Java 8+</span>
             <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Spring Boot</span>
             <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">RESTful APIs</span>
             <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Microservices</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Distributed Systems</span>
             <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">System Design</span>
           </div>
         </div>
+
         <div>
           <h3 class="text-xs uppercase font-bold text-slate-400 tracking-wider mb-2">Databases & Data</h3>
           <div class="flex flex-wrap gap-1.5">
             <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">MS SQL Server</span>
-            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">T-SQL Stored Procedures</span>
-            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Query Plan Tuning</span>
-            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Indexing Strategies</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">T-SQL</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Stored Procedures</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Triggers</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Query Optimization</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Indexing</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Spring Data JPA</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Hibernate</span>
             <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">ETL Pipelines</span>
           </div>
         </div>
+
         <div>
           <h3 class="text-xs uppercase font-bold text-slate-400 tracking-wider mb-2">Cloud & DevOps</h3>
           <div class="flex flex-wrap gap-1.5">
-            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">AWS (Certified)</span>
-            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Azure (AZ-900)</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">AWS</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Azure</span>
             <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Docker</span>
             <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Kubernetes</span>
-            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Git / Maven</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Git</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Maven</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">CI/CD</span>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-xs uppercase font-bold text-slate-400 tracking-wider mb-2">Security & API</h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">OAuth 2.0</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">JWT Authorization</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">API Integration</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Postman</span>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-xs uppercase font-bold text-slate-400 tracking-wider mb-2">Enterprise Integration</h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Workday</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Snowflake</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">REST/SOAP APIs</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Enterprise Data Integration</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">API Clients</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">ETL/ELT</span>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-xs uppercase font-bold text-slate-400 tracking-wider mb-2">Tools</h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">IntelliJ IDEA</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">SQL Developer</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">MySQL</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">React</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Material-UI (MUI)</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Jira</span>
           </div>
         </div>
       </div>
@@ -139,61 +181,56 @@
         <i data-lucide="briefcase" class="w-5 h-5 text-brand-500"></i> Professional Experience
       </h2>
 
-      <!-- Senior Role -->
+      <!-- Senior Software Engineer -->
       <div class="glass rounded-2xl p-8 hover:border-brand-500/50 transition">
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-4">
           <div>
             <h3 class="text-lg font-bold text-white">Senior Software Engineer</h3>
             <p class="text-brand-500 text-sm font-medium">HRSoft – ZerocodeHR</p>
           </div>
-          <span class="text-xs text-slate-400 bg-dark-800 px-3 py-1 rounded-full border border-slate-700 self-start sm:self-auto">Apr 2026 – Present</span>
+          <span class="text-xs text-slate-400 bg-dark-800 px-3 py-1 rounded-full border border-slate-700 self-start sm:self-auto">Oct 2023 – Present</span>
         </div>
         <ul class="space-y-2.5 text-sm text-slate-300">
           <li class="flex items-start gap-2">
             <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
-            <span>Architected and scaled metadata execution services and compiled Java backend calculation engines across 100+ enterprise tenants, including Apollo Global and Walmart Canada.</span>
+            <span>Engineered secure RESTful APIs with OAuth 2.0 / JWT authorization pipelines and token caching for multi-tenant enterprise workloads.</span>
           </li>
           <li class="flex items-start gap-2">
             <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
-            <span>Slashed critical dataset processing latency by over 99% (from 10 minutes to ~3 seconds) by materializing partition logic during ingestion and refactoring RBAR scalar UDFs into indexed relational joins.</span>
+            <span>Configured and supported API-based enterprise data integrations with Workday, Snowflake, and external client systems for reliable data exchange.</span>
           </li>
           <li class="flex items-start gap-2">
             <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
-            <span>Engineered resilient batch ETL ingestion pipelines with automated schema validation, guaranteeing zero data loss across live production cutovers.</span>
+            <span>Architected metadata execution services and Java backend calculation engines supporting 100+ enterprise SaaS tenants and dynamic client configurations.</span>
           </li>
           <li class="flex items-start gap-2">
             <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
-            <span>Spearheaded backend design reviews, established testing benchmarks, and mentored junior engineers on multi-tenant database optimization.</span>
+            <span>Developed Java computation routines bridging dynamic low-code metadata models with runtime execution services for scalable calculation processing.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
+            <span>Designed and optimized T-SQL stored procedures, triggers, relational schemas, and query patterns in MS SQL Server while maintaining ACID compliance and multi-tenant isolation.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
+            <span>Improved dataset processing by optimizing ingestion logic and refactoring row-by-row database operations into more efficient relational query patterns.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
+            <span>Built batch ETL ingestion pipelines with schema validation to support reliable production data cutovers and resilient data processing.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
+            <span>Built test harnesses and Postman regression suites to validate OAuth contracts, API behavior, and backend outputs against calculation specifications.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
+            <span>Mentored junior engineers on database tuning, API development, and maintainable backend practices.</span>
           </li>
         </ul>
       </div>
 
-      <!-- Software Engineer Role -->
-      <div class="glass rounded-2xl p-8 hover:border-brand-500/50 transition">
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-4">
-          <div>
-            <h3 class="text-lg font-bold text-white">Software Engineer</h3>
-            <p class="text-brand-500 text-sm font-medium">HRSoft – ZerocodeHR</p>
-          </div>
-          <span class="text-xs text-slate-400 bg-dark-800 px-3 py-1 rounded-full border border-slate-700 self-start sm:self-auto">Oct 2023 – Mar 2026</span>
-        </div>
-        <ul class="space-y-2.5 text-sm text-slate-300">
-          <li class="flex items-start gap-2">
-            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
-            <span>Developed backend computation routines in Java, bridging low-code metadata models with compiled runtime execution services.</span>
-          </li>
-          <li class="flex items-start gap-2">
-            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
-            <span>Designed high-performance T-SQL stored procedures, triggers, and relational schemas in MS SQL Server ensuring ACID compliance and multi-tenant isolation.</span>
-          </li>
-          <li class="flex items-start gap-2">
-            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
-            <span>Built automated test harnesses and Postman regression suites to validate backend outputs against enterprise calculation requirements.</span>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Intern Role -->
+      <!-- Full-Stack Developer Intern -->
       <div class="glass rounded-2xl p-8 hover:border-brand-500/50 transition">
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-4">
           <div>
@@ -205,15 +242,15 @@
         <ul class="space-y-2.5 text-sm text-slate-300">
           <li class="flex items-start gap-2">
             <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
-            <span>Designed and implemented RESTful microservices with Spring Boot following layered architecture and clean code principles.</span>
+            <span>Designed and implemented RESTful APIs and microservices using Spring Boot, following layered architecture and clean code principles.</span>
           </li>
           <li class="flex items-start gap-2">
             <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
-            <span>Integrated persistence layers using Spring Data JPA and Hibernate with MySQL/SQL Server for optimized data access.</span>
+            <span>Configured persistence layers using Spring Data JPA and Hibernate with MySQL/SQL Server for optimized, transactional data access.</span>
           </li>
           <li class="flex items-start gap-2">
             <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
-            <span>Built user interface components using React and Material-UI (MUI), consuming backend REST endpoints.</span>
+            <span>Built responsive UI components using React and Material-UI (MUI), consuming backend REST endpoints.</span>
           </li>
         </ul>
       </div>
@@ -232,11 +269,11 @@
             <span class="text-xs text-brand-500 font-mono">Score: 825/1000</span>
           </li>
           <li class="flex items-center justify-between">
-            <span>Microsoft Azure Fundamentals (AZ-900)</span>
+            <span>Microsoft Certified: Azure Fundamentals (AZ-900)</span>
             <span class="text-xs text-brand-500 font-mono">Score: 824/1000</span>
           </li>
-          <li>7× Google Cloud Skill Badges</li>
-          <li>Elite Certification in Ethical Hacking (NPTEL)</li>
+          <li>7× Google Cloud Skill Badges in Architecture & Infrastructure</li>
+          <li>Elite Certification in Ethical Hacking – NPTEL</li>
         </ul>
       </div>
 
@@ -247,7 +284,7 @@
         </h2>
         <div class="space-y-4 text-sm text-slate-300">
           <div>
-            <h4 class="font-bold text-white">B.Tech in Computer Science & Engineering</h4>
+            <h4 class="font-bold text-white">Bachelor of Technology (B.Tech), Computer Science & Engineering</h4>
             <p class="text-xs text-slate-400">SRKR Engineering College | 2019 – 2023</p>
             <p class="text-xs text-brand-500 font-mono mt-1">GPA: 8.00 / 10.00</p>
           </div>
@@ -278,3 +315,5 @@
   </script>
 </body>
 </html>
+
+

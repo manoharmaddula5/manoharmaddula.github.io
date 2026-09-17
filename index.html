@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manohar Maddula | Backend & Solutions Engineer</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              500: '#10b981',
+              600: '#059669',
+            },
+            dark: {
+              900: '#0a0f1d',
+              800: '#111827',
+              700: '#1f2937',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .glass {
+      background: rgba(17, 24, 39, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glow {
+      box-shadow: 0 0 40px -10px rgba(16, 185, 129, 0.25);
+    }
+  </style>
+</head>
+<body class="bg-dark-900 text-slate-200 antialiased selection:bg-brand-500 selection:text-white">
+
+  <!-- Background Gradients -->
+  <div class="fixed inset-0 pointer-events-none z-0">
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-brand-500/15 rounded-full blur-3xl"></div>
+    <div class="absolute top-1/2 -right-40 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
+  </div>
+
+  <div class="relative z-10 max-w-5xl mx-auto px-6 py-12 space-y-16">
+
+    <!-- Header / Hero Section -->
+    <header class="glass rounded-2xl p-8 sm:p-12 glow" data-aos="fade-down">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div>
+          <span class="inline-block text-xs font-semibold uppercase tracking-wider text-brand-500 mb-2">Backend & Solutions Engineer</span>
+          <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white">Manohar Maddula</h1>
+          <p class="text-slate-400 mt-2 flex items-center gap-2 text-sm">
+            <i data-lucide="map-pin" class="w-4 h-4 text-brand-500"></i> Hyderabad, Telangana, India
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <a href="mailto:manoharmaddula5@gmail.com" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-brand-500 text-white font-medium hover:bg-brand-600 transition shadow-lg shadow-brand-500/20 text-sm">
+            <i data-lucide="mail" class="w-4 h-4"></i> Contact Me
+          </a>
+          <a href="https://linkedin.com/in/manohar-maddula" target="_blank" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl glass text-slate-300 font-medium hover:bg-dark-700 transition text-sm">
+            <i data-lucide="linkedin" class="w-4 h-4"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Ribbon -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-8 pt-8 border-t border-slate-800">
+        <div>
+          <div class="text-2xl font-bold text-white tracking-tight">99.5%</div>
+          <div class="text-xs text-slate-400 mt-0.5">Latency Reduction (10m → 3s)</div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-white tracking-tight">100+</div>
+          <div class="text-xs text-slate-400 mt-0.5">Enterprise Tenants Supported</div>
+        </div>
+        <div class="col-span-2 sm:col-span-1">
+          <div class="text-2xl font-bold text-white tracking-tight">3.5+ Yrs</div>
+          <div class="text-xs text-slate-400 mt-0.5">Backend & SaaS Architecture</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section class="glass rounded-2xl p-8" data-aos="fade-up">
+      <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+        <i data-lucide="terminal" class="w-5 h-5 text-brand-500"></i> Profile Overview
+      </h2>
+      <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+        Backend-leaning developer and solutions engineer specializing in high-performance enterprise SaaS platforms[span_0](start_span)[span_0](end_span). Proven track record designing Spring Boot microservices, transposing low-code logic into compiled Java execution layers, and tuning MS SQL Server database architectures to resolve critical bottlenecks for clients like Apollo Global and Walmart Canada[span_1](start_span)[span_1](end_span).
+      </p>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="glass rounded-2xl p-8" data-aos="fade-up">
+      <h2 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+        <i data-lucide="cpu" class="w-5 h-5 text-brand-500"></i> Technical Expertise
+      </h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div>
+          <h3 class="text-xs uppercase font-bold text-slate-400 tracking-wider mb-2">Backend & APIs</h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Java</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Spring Boot</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">REST APIs</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Microservices</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xs uppercase font-bold text-slate-400 tracking-wider mb-2">Databases & ETL</h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">MS SQL Server</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Query Optimization</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Stored Procedures</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Data Pipelines</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xs uppercase font-bold text-slate-400 tracking-wider mb-2">Cloud & Systems</h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">AWS (Certified)</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Azure (AZ-900)</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Docker</span>
+            <span class="px-2.5 py-1 bg-dark-800 rounded-md text-xs border border-slate-700">Kubernetes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="space-y-6" data-aos="fade-up">
+      <h2 class="text-xl font-bold text-white flex items-center gap-2">
+        <i data-lucide="briefcase" class="w-5 h-5 text-brand-500"></i> Work Experience
+      </h2>
+
+      <!-- Senior Role -->
+      <div class="glass rounded-2xl p-8 hover:border-brand-500/50 transition">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-4">
+          <div>
+            <h3 class="text-lg font-bold text-white">Senior Software Engineer</h3>
+            <p class="text-brand-500 text-sm font-medium">HRSoft – ZerocodeHR</p>
+          </div>
+          <span class="text-xs text-slate-400 bg-dark-800 px-3 py-1 rounded-full border border-slate-700 self-start sm:self-auto">Apr 2026 – Present</span>
+        </div>
+        <ul class="space-y-2.5 text-sm text-slate-300">
+          <li class="flex items-start gap-2">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
+            <span>Scale low-code transpiled execution modules and backend business logic for compensation calculations across <strong>100+ enterprise tenants</strong>, including Walmart Canada and Apollo Global[span_2](start_span)[span_2](end_span).</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
+            <span><strong>Reduced calculation latency from ~10 minutes down to 3 seconds</strong> by redesigning recursive partitioned datasets into event-driven stored procedures and refactoring scalar lookups into relational joins[span_3](start_span)[span_3](end_span).</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
+            <span>Architected fault-tolerant ETL pipelines with automated schema validation to execute zero-loss live data cutovers[span_4](start_span)[span_4](end_span).</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Software Engineer Role -->
+      <div class="glass rounded-2xl p-8 hover:border-brand-500/50 transition">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-4">
+          <div>
+            <h3 class="text-lg font-bold text-white">Software Engineer</h3>
+            <p class="text-brand-500 text-sm font-medium">HRSoft – ZerocodeHR</p>
+          </div>
+          <span class="text-xs text-slate-400 bg-dark-800 px-3 py-1 rounded-full border border-slate-700 self-start sm:self-auto">Oct 2023 – Mar 2026</span>
+        </div>
+        <ul class="space-y-2.5 text-sm text-slate-300">
+          <li class="flex items-start gap-2">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
+            <span>Implemented dynamic backend business logic converted to Java execution scripts from low-code configuration models[span_5](start_span)[span_5](end_span).</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
+            <span>Designed complex MS SQL Server schemas, stored procedures, and triggers ensuring strict tenant isolation[span_6](start_span)[span_6](end_span).</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Intern Role -->
+      <div class="glass rounded-2xl p-8 hover:border-brand-500/50 transition">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-4">
+          <div>
+            <h3 class="text-lg font-bold text-white">Full-Stack Developer Intern</h3>
+            <p class="text-brand-500 text-sm font-medium">Zemoso Labs</p>
+          </div>
+          <span class="text-xs text-slate-400 bg-dark-800 px-3 py-1 rounded-full border border-slate-700 self-start sm:self-auto">Jan 2023 – Sep 2023</span>
+        </div>
+        <ul class="space-y-2.5 text-sm text-slate-300">
+          <li class="flex items-start gap-2">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
+            <span>Engineered RESTful APIs and microservices using Spring Boot and relational persistence layers with MySQL/SQL Server[span_7](start_span)[span_7](end_span).</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0"></i>
+            <span>Built accessible user interfaces using React and Material-UI (MUI)[span_8](start_span)[span_8](end_span).</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Grid -->
+    <div class="grid md:grid-cols-2 gap-6" data-aos="fade-up">
+      <!-- Certifications -->
+      <div class="glass rounded-2xl p-8">
+        <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+          <i data-lucide="award" class="w-5 h-5 text-brand-500"></i> Certifications
+        </h2>
+        <ul class="space-y-3 text-sm text-slate-300">
+          <li class="flex items-center justify-between">
+            <span>AWS Certified Cloud Practitioner[span_9](start_span)[span_9](end_span)</span>
+            <span class="text-xs text-brand-500 font-mono">825/1000[span_10](start_span)[span_10](end_span)</span>
+          </li>
+          <li class="flex items-center justify-between">
+            <span>Microsoft Azure Fundamentals (AZ-900)[span_11](start_span)[span_11](end_span)</span>
+            <span class="text-xs text-brand-500 font-mono">824/1000[span_12](start_span)[span_12](end_span)</span>
+          </li>
+          <li>7× Google Cloud Skill Badges[span_13](start_span)[span_13](end_span)</li>
+          <li>Elite Certification in Ethical Hacking (NPTEL)[span_14](start_span)[span_14](end_span)</li>
+        </ul>
+      </div>
+
+      <!-- Education -->
+      <div class="glass rounded-2xl p-8">
+        <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+          <i data-lucide="graduation-cap" class="w-5 h-5 text-brand-500"></i> Education
+        </h2>
+        <div class="space-y-4 text-sm text-slate-300">
+          <div>
+            <h4 class="font-bold text-white">B.Tech in Computer Science & Engineering[span_15](start_span)[span_15](end_span)</h4>
+            <p class="text-xs text-slate-400">SRKR Engineering College | 2019 – 2023[span_16](start_span)[span_16](end_span)</p>
+            <p class="text-xs text-brand-500 font-mono mt-1">GPA: 8.00 / 10.00[span_17](start_span)[span_17](end_span)</p>
+          </div>
+          <div>
+            <h4 class="font-bold text-white">Intermediate (MPC)[span_18](start_span)[span_18](end_span)</h4>
+            <p class="text-xs text-slate-400">Aditya Junior College | 2017 – 2019[span_19](start_span)[span_19](end_span)</p>
+            <p class="text-xs text-brand-500 font-mono mt-1">GPA: 10.00 / 10.00[span_20](start_span)[span_20](end_span)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-xs text-slate-500 py-6 border-t border-slate-800/50">
+      © Manohar Maddula. Built with Tailwind CSS & Lucide Icons. Hosted on GitHub Pages.
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 700,
+      once: true,
+      easing: 'ease-out-cubic'
+    });
+    lucide.createIcons();
+  </script>
+</body>
+</html>
